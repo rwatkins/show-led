@@ -1,7 +1,6 @@
 (ns show-led.core
   (:require [clojure.string :refer [split-lines]]
-            [clojure.pprint :refer [pprint]]
-            )
+            [clojure.pprint :refer [pprint]])
   (:gen-class))
 
 (def leds {"0" [" ____ " "|    |" "|    |" "|    |" "|____|"]
